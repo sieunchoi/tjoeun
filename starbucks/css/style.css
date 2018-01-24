@@ -309,8 +309,8 @@ footer .info{padding: 20px 0;}
 
   /* footer */
   footer .banner{position: relative; height: 70px;}
-  footer .banner .wrap{max-width: 400px; margin-left: auto; overflow: hidden;}
-  footer .banner .wrap label{position: absolute; border: 0;}
+  footer .banner .wrap{max-width: 400px; margin: auto; overflow: hidden;}
+  footer .banner .wrap label{position: absolute; bottom: 0;}
   footer .banner .wrap label::after{content: '\f04c';} /*기본 재생상태(일시정지 보여주기)*/
   footer .banner .wrap ul{width: 1550px;
     animation: banner 10s linear infinite;
